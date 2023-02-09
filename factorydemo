@@ -1,0 +1,15 @@
+abstract class FactoryDemo extends Smartphone{
+int price = 0;
+boolean Originalprice = false;
+abstract void veryfyFingerPrint();
+abstract void providePattern();
+void browse(){
+System.out.println("FactoryDemobrowsing");
+}
+void sendMessage(){
+System.out.println("i love you");
+}
+void recevieCall(){
+System.out.println("hi hellow");
+}
+}
