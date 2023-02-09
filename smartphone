@@ -1,0 +1,11 @@
+abstract class Smartphone{
+int call=30;
+abstract void sendMessage();
+abstract void recevieCall();
+void browse(){
+System.out.println("Smartphone browsing");
+}
+public Smartphone(){
+System.out.println("Smartphone under development");
+}
+}
