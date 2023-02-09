@@ -1,0 +1,16 @@
+public class Samsung extends FactoryDemo{
+int price = 5000;
+void veryfyFingerPrint(){
+System.out.println("yes");
+}
+void providePattern(){
+System.out.println("yes");
+}
+public static void main(String[]args){
+Samsung sam = new Samsung();
+sam.browse();
+{
+System.out.println(sam.price);
+}
+}
+}
